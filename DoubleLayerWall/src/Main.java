@@ -43,7 +43,7 @@ public class Main {
     // check if ani number exist exactly twice end bricks are numbered correctly (from 1 to number of bricks)
         for (int i = 1; i <= numBricks ; i++) {
             if(Collections.frequency(all,i)!=2){
-                System.out.println("-1 Invalid input!");
+                System.out.println("-1\n Invalid input!");
                 return;
             }
         }
@@ -69,7 +69,7 @@ public class Main {
                     secondLayer[emptyCell[0] - 1][emptyCell[1]] = i;
                     break;
                 case "fails":
-                    System.out.println("-1 \n It is not possible to build second layer !!!");
+                    System.out.println("-1\n It is not possible to build second layer !!!");
                     break;
                 default:
                     System.out.println("Something went wrong !!!");
