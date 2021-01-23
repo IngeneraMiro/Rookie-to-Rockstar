@@ -1,7 +1,7 @@
 package Classes;
 
 /**  this class will be initialised with first wall dimension
- *   and the only one method that will return to as first empty sell
+ *   and the only one method that will return to us first empty sell
  *   starting from lower left corner and going to right and then up
  *   row by row*/
 
