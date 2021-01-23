@@ -1,7 +1,7 @@
 package Classes;
 
 /** class will be initialised with first wall array and calculated from it
- * number of columns. It has only one method that returns to as the right direction
+ * number of columns. It has only one method that returns to us the right direction
  * to place the next brick.It follows desired logic of wall building : from bottom
  * to up and from left to the right */
 
