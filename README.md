@@ -2,12 +2,12 @@
 assignment problem from Mentormate  
 
 The problem is good one. I am not great builder but....
-My logic is - we have to start building from bottom to top and from left to the right -as no one has buildi from top.
+My logic is - we have to start building from bottom to top and from left to the right -as no one has build from top.
 
-Number of bricks is multilied dimension of matrix devided by 2.
+Number of bricks is multiplied dimension of matrix devided by 2.
 They are numbered from 1 to the number of bricks.
 As it is allowed a brick with given number to half step on top of a brick with the same number from first layer - conclusion is that
- numberung of the brick is not important - main target is to bould second layer in such way that a brick from the second to step on top 
+ numberung of the brick is not important - main target is to build second layer in such way that a brick from the second to step on top 
  of two briks from the first layer. Showed nimering is only to separate visually the bricks and doesn't matter at all !!!!  
 
 As we have the first layer already built then we have to start building second layer following next rules:
