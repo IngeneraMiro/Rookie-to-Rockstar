@@ -2,7 +2,7 @@
 assignment problem from Mentormate  
 
 The problem is good one. I am not great builder but....
-My logic is - we have to start building from bottom to top and from left to the right -as no one is building from top.
+My logic is - we have to start building from bottom to top and from left to the right -as no one is building from top to bottom.
 
 Number of bricks is multiplied dimension of matrix devided by 2.
 They are numbered from 1 to the number of bricks.
