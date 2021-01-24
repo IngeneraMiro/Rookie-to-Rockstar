@@ -68,7 +68,7 @@ public class Main {
                     secondLayer[emptyCell[0]][emptyCell[1]] = i;
                     secondLayer[emptyCell[0] - 1][emptyCell[1]] = i;
                     break;
-                case "fails":
+                case "false":
                     System.out.println("-1\n It is not possible to build second layer !!!");
                     break;
                 default:
