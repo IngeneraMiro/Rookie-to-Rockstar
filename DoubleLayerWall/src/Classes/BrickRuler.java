@@ -27,7 +27,11 @@ public class BrickRuler {
                 }
 
         }else{
-            return "right";
+            if (m < column - 1 && this.matrix[n][m] != this.matrix[n][m + 1]) {
+                return "right";
+            }else {
+                return "false";
+            }
         }
     }
 
