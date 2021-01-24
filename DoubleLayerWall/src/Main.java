@@ -40,7 +40,7 @@ public class Main {
         }
     // close the reader to free the resource as we don't need it anymore
         reader.close();
-    // check if ani number exist exactly twice end bricks are numbered correctly (from 1 to number of bricks)
+    // check if any number exist exactly twice end bricks are numbered correctly (from 1 to number of bricks)
         for (int i = 1; i <= numBricks ; i++) {
             if(Collections.frequency(all,i)!=2){
                 System.out.println("-1\n Invalid input!");
@@ -55,7 +55,7 @@ public class Main {
         String direction;
     //  End of input data, initialization and validating   !!!
 
-    // getting first empty sell from lower left corner going from bottom to up and from left to the right
+    // getting first empty cell from lower left corner going from bottom to up and from left to the right
         for (int i = 1; i <= numBricks ; i++) {
             emptyCell = distributor.found(secondLayer);
             direction = ruler.showDirection( emptyCell[0],emptyCell[1]);
