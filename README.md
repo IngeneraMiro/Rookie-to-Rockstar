@@ -16,4 +16,4 @@ As we have the first layer already built then we have to start building second l
    - check first on first layer if there is enough room and if we can place the brick horizontaly (to not place it fully on top of other brick)
    - if not then check if there is enough room and if we can place it vertically (to not place it fully on top of other brick)
    - on every bick the starting poin is first free left cell fom bottom to top
-   - on every even row we are going only to the right
+   - on every second row we are going only to the right
